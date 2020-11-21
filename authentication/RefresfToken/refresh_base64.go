@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	msg := "Hello MEDODS"
+	msg := "Hello MEDODS :)"
 	encoded := base64.StdEncoding.EncodeToString([]byte(msg))
 	fmt.Println(encoded)
 	decoded, err := base64.StdEncoding.DecodeString(encoded)
